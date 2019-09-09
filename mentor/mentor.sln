@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mentor.webapi", "mentor.webapi\mentor.webapi.csproj", "{6815A058-AB73-471D-BA8F-8C77B6B583E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6815A058-AB73-471D-BA8F-8C77B6B583E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6815A058-AB73-471D-BA8F-8C77B6B583E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6815A058-AB73-471D-BA8F-8C77B6B583E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6815A058-AB73-471D-BA8F-8C77B6B583E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {368BC308-C0A3-4B96-9B8A-C054658EAB86}
+	EndGlobalSection
+EndGlobal
