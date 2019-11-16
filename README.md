@@ -37,21 +37,34 @@ ctrl + c
 Como o Ionic utiliza Angular, tudo que vamos fazer vai ser basear em componetes.
 
 ```shel
+ionic generate
 ionic generate page cadastramento
+ionic generate module mentor
+cd src
+cd app
+cd mentor
+ionic generate service mentor
+ionic generate page qualificacoes
+ionic generate page solicitacoes
+cd ..
+cd ..
+cd ..
+ionic generate page perfil
 ```
 
 splashScreen
 login
 cadastramento (formulario)
-qualificacoes
+mentor (module)
+	qualificacoes
+	solicitacoes
 perfil (upload de foto)
 busca (lista de ? com foto)
-mentor
-mentoria
-agendamento
-calendario
-resumo
-solicitacoes
+mentoria (module)
+	agendamento
+	calendario
+	conferencia
+	resumo
 pagamento
 
 ### Running tests
