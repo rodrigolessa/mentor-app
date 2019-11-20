@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "mentor\\mentor.webapi"
+			"path": "mentor.webapi"
 		},
 		{
-			"path": "mentor\\mentorApp\\src"
+			"path": "mentor\\src"
 		}
 	]
 }
