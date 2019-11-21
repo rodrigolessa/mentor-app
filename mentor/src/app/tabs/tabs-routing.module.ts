@@ -8,45 +8,45 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
+        path: 'tabPainel',
         children: [
           {
             path: '',
             loadChildren: () =>
-              import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+              import('../painel/painel.module').then(m => m.PainelPageModule)
           }
         ]
       },
       {
-        path: 'tab2',
+        path: 'tabBusca',
         children: [
           {
             path: '',
             loadChildren: () =>
-              import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+              import('../busca/busca.module').then(m => m.BuscaPageModule)
           }
         ]
       },
       {
-        path: 'tab3',
+        path: 'tabPerfil',
         children: [
           {
             path: '',
             loadChildren: () =>
-              import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+              import('../perfil/perfil.module').then(m => m.PerfilPageModule)
           }
         ]
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/tabPainel',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tabs/tabPainel',
     pathMatch: 'full'
   }
 ];

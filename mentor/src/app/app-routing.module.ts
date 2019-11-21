@@ -29,6 +29,10 @@ const routes: Routes = [
   {
     path: 'busca',
     loadChildren: () => import('./busca/busca.module').then( m => m.BuscaPageModule)
+  },
+  {
+    path: 'painel',
+    loadChildren: () => import('./painel/painel.module').then( m => m.PainelPageModule)
   }
 ];
 @NgModule({

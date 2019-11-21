@@ -80,11 +80,19 @@ Como o Ionic utiliza Angular, tudo que vamos fazer vai ser baseado em componente
 ```shel
 ionic generate page cadastramento
 ionic generate page login
-ionic generate page perfil
+ionic generate page painel
 ionic generate page busca
+ionic generate page perfil
 ```
 
-Usando a opção "module" do comando "generate".
+Iniciando os teste pela página de busca, vamos adiconar o layout usando o componente ion-list:
+https://ionicframework.com/docs/api/list
+
+Em seguinda vamos vincular a nova página ao módulo principal do App e criar uma rota adicionando ao menu de "tabs".
+
+No arquivo "app.module.ts" basta adicionar o nome do módulo (BuscaPageModule) a lista do item "imports:".
+
+Usando a opção "module" do comando "generate", vamos criar a área dos mentores onde teremos serviços e páginas.
 Um módulo é um grupo de páginas que estão dentro de um mesmo contexto.
 
 ```shel
@@ -105,7 +113,7 @@ splashScreen
 login
 cadastramento (formulario)
 perfil (upload de foto)
-busca (lista (ionic-list) com foto)
+busca (lista (ion-list) com foto)
 mentor (module)
 	qualificacoes (complemento de informações)
 	solicitacoes (mentoria ativa)
